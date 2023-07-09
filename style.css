@@ -1,12 +1,17 @@
-.container {
+
+body{
+    background-color: green;
+}.container {
     text-align: center;
-    background-color: #000;
-    padding: 20px;
-    color: #fff;
+
+    padding: 60px;
+    color:white;
   }
   
   h1 {
     margin-bottom: 20px;
+    color: white;
+    font-style:normal;
   }
   
   .search-container {
@@ -14,59 +19,70 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    color: white;
+    size: 50px;
+
   }
   
   #city-input {
     padding: 5px;
     margin-right: 10px;
+    
   }
   
   #search-btn {
     padding: 5px 10px;
+    
+    
+
   }
   
   #city-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 800px;
+    font-size: larger;
+    margin-bottom: 50px;
+    color:white;
   }
   
   .date {
     position: absolute;
     top: 10px;
     left: 10px;
-    font-size: 18px;
+    font-size: 30px;
     color: #fff;
   }
   
   #weather-icon {
     margin: 20px auto;
-    width: 120px;
+    width: 1200px;
+    height: 120px;
+
   }
   
   .weather-parameter {
-    display: inline-block;
+display: inline-table;
     width: 200px;
     margin: 10px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(12, 12, 12, 0.2);
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(243, 10, 10, 0.1);
   }
   
   .weather-parameter .icon {
-    font-size: 36px;
+    font-size: 500px;
     color: #fff;
   }
   
   .weather-parameter .value {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
   }
   
   .weather-parameter .label {
-    font-size: 18px;
+    font-size: 25px;
     color: #ebe1e1;
+    
   }
   
